@@ -26,7 +26,7 @@ class SignInPage extends StatelessWidget {
         mainAxisAlignment: MainAxisAlignment.center,
         children: [
           const Text(
-            'Sign in',
+            'Sign In',
             textAlign: TextAlign.center,
             style: TextStyle(
               fontSize: 32.0,
