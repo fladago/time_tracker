@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "836307740250",
+    "project_id": "time-tracker-best",
+    "storage_bucket": "time-tracker-best.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:836307740250:android:d71c190e0db288248bda63",
+        "android_client_info": {
+          "package_name": "com.experimentapp.time_tracker"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "836307740250-r9d39g4dal2ntcj4aj7v8j6j293std2b.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.experimentapp.time_tracker",
+            "certificate_hash": "6ac733963bc1343912fbad6a3433eebf9c224f06"
+          }
+        },
+        {
+          "client_id": "836307740250-fe3a7anhi3lmuvptmmvhacrvjuouf8f2.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyBokVKUWIhZyvd852ZzlnqlL0gmWMpcKHI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "836307740250-fe3a7anhi3lmuvptmmvhacrvjuouf8f2.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
