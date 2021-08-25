@@ -25,6 +25,8 @@ class _LangingPageState extends State<LangingPage> {
         onSignIn: _updateUser,
       );
     }
-    return const HomePage();
+    return HomePage(
+      onSignOut: () => _updateUser(null),
+    );
   }
 }
