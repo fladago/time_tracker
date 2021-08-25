@@ -11,10 +11,18 @@ class LangingPage extends StatefulWidget {
 
 class _LangingPageState extends State<LangingPage> {
   User? _user;
+  void _updateUser(User? user) {
+    setState(() {
+      _user = user;
+    });
+  }
+
   @override
   Widget build(BuildContext context) {
     if (_user == null) {
-      return const SignInPage();
+      return SignInPage(
+        onSignIn: _updateUser,
+      );
     }
     return Container();
   }
