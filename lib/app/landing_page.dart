@@ -12,6 +12,12 @@ class LangingPage extends StatefulWidget {
 
 class _LangingPageState extends State<LangingPage> {
   User? _user;
+  @override
+  void initState() {
+    super.initState();
+    _updateUser(FirebaseAuth.instance.currentUser);
+  }
+
   void _updateUser(User? user) {
     setState(() {
       _user = user;
