@@ -11,10 +11,10 @@ class Auth implements AuthBase {
   final _firebaseAuth = FirebaseAuth.instance;
 
   @override
-  Stream<User?> authStateChanges() => _firebaseAuth.authStateChanges();
+  User? get currentUser => _firebaseAuth.currentUser;
 
   @override
-  User? get currentUser => _firebaseAuth.currentUser;
+  Stream<User?> authStateChanges() => _firebaseAuth.authStateChanges();
 
   @override
   Future<User?> signInAnonymously() async {
