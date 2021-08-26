@@ -41,14 +41,5 @@
 	</array>
 	<key>UIViewControllerBasedStatusBarAppearance</key>
 	<false/>
-	<key>URL types</key>
-	<array>
-		<dict>
-			<key>URL Schemes</key>
-			<array>
-				<string>com.googleusercontent.apps.836307740250-mvosf5ojn8v3r8sgicv7h3n84m2m287t</string>
-			</array>
-		</dict>
-	</array>
 </dict>
 </plist>
